@@ -9,3 +9,6 @@
 
 /* Components */
 @import url(./components/index.css);
+
+/* Section */
+@import url(./sections/index.css);
