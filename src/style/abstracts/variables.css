@@ -1,10 +1,10 @@
 :root {
   /* color */
 
-  --color-white: #fff;
+  --color-while: #fff;
   --color-nero: #171100;
   --color-yellow: #ffb900;
-  --color-primary: var(--color-red);
+  --color-primary: var(--color-yellow);
   --color-secondary: var(--color-nero);
   --color-chicago: #5f5b53;
   --color-tree-poppy: #fea31b;
@@ -16,17 +16,20 @@
   --color-westar: #e2dfda;
   --color-cotton-seed: #bfbcb2;
   --color-friar-gray: #807d74;
+  --color-early-dawn: #fff9e8;
+  --color-titan-white: #ebeaff;
+  --color-white-pointer: #fcefff;
 
   /* font-size */
 
-  --font-size-3xs: 14px;
-  --font-size-2xs: 16px;
-  --font-size-xs: 18px;
-  --font-size-sm: 24px;
-  --font-size-md: 26px;
-  --font-size-lg: 38px;
-  --font-size-xl: 44px;
-  --font-size-2xl: 58px;
+  --font-size-3xs: 1.4rem;
+  --font-size-2xs: 1.6rem;
+  --font-size-xs: 1.8rem;
+  --font-size-sm: 2.4rem;
+  --font-size-md: 2.6rem;
+  --font-size-lg: 3.8rem;
+  --font-size-xl: 4.4rem;
+  --font-size-2xl: 5.8rem;
 
   /* line height */
 

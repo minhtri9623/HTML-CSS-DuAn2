@@ -1,0 +1,16 @@
+.btn {
+  font-size: var(--font-size-2xs);
+  font-weight: var(--font-weight-sm);
+  color: var(--color-while);
+  line-height: var(--line-height-2xs);
+  min-width: 118px;
+  text-align: center;
+  display: inline-block;
+  padding: 11px 16px;
+  background-color: var(--color-secondary);
+  border-radius: var(--border-radius-md);
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
