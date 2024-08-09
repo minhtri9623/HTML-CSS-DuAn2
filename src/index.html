@@ -6,35 +6,56 @@
     <title>Dự Án 2</title>
     <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
     <link rel="stylesheet" href="./style/style.css" />
+
+    <!-- Font Sen -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <nav class="navbar">
-          <img
-            src="./assets/icons/logo (1).svg"
-            alt="Lesson."
-            class="navbar-logo"
-          />
-          <ul class="navbar-menu">
-            <li class="navbar-item">
-              <a href="#" class="navbar-link navbar-link--active">Home</a>
-            </li>
-            <li class="navbar-item">
-              <a href="#" class="navbar-link">Courses</a>
-            </li>
-            <li class="navbar-item">
-              <a href="#" class="navbar-link">Pricing</a>
-            </li>
-            <li class="navbar-item">
-              <a href="#" class="navbar-link">Reviews</a>
-            </li>
-          </ul>
-          <div class="navbar-action">
-            <a href="#!" class="btn navbar-btn">Sign Up</a>
+    <main class="main" style="height: 5000px">
+      <header class="header sticky">
+        <div class="container">
+          <div class="header-wrapper">
+            <!-- Logo -->
+            <img
+              src="./assets/icons/logo (1).svg"
+              alt="Lesson."
+              class="header__logo"
+            />
+
+            <!-- Nav -->
+            <nav class="header-navbar">
+              <ul class="navbar-list">
+                <li class="navbar__item navbar__item--active">
+                  <a
+                    href="#!"
+                    class="navbar__item-link navbar__item-link--active"
+                    >Home</a
+                  >
+                </li>
+                <li class="navbar__item">
+                  <a href="#!" class="navbar__item-link">Courses</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="#!" class="navbar__item-link">Pricing</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="#!" class="navbar__item-link">Reviews</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- btn -->
+            <div class="header-action">
+              <a href="#" class="btn sign-up-btn">Sign Up</a>
+            </div>
           </div>
-        </nav>
-      </div>
-    </header>
+        </div>
+      </header>
+    </main>
   </body>
 </html>
