@@ -3,3 +3,9 @@
 
 /* base */
 @import url(./bases/index.css);
+
+/* layouts */
+@import url(./layouts/index.css);
+
+/* Components */
+@import url(./components/index.css);

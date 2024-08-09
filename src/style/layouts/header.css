@@ -1,0 +1,40 @@
+.navbar {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-menu {
+  display: flex;
+  margin-left: auto;
+  gap: 42px;
+  position: relative;
+}
+
+.navbar-link {
+  font-size: var(--font-size-2xs);
+  font-weight: var(--font-weight-default);
+  color: var(--color-chicago);
+  line-height: var(--line-height-2xs);
+}
+
+.navbar-menu::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  width: 12px;
+  height: 3px;
+  border-radius: 1px;
+  background-color: var(--color-secondary);
+}
+
+.navbar-link--active {
+  font-weight: var(--font-weight-sm);
+  color: var(--color-secondary);
+}
+
+.navbar-action {
+  margin-left: 70px;
+}
