@@ -4,7 +4,7 @@
   --color-while: #fff;
   --color-nero: #171100;
   --color-yellow: #ffb900;
-  --color-primary: var(--color-red);
+  --color-primary: var(--color-yellow);
   --color-secondary: var(--color-nero);
   --color-chicago: #5f5b53;
   --color-tree-poppy: #fea31b;
@@ -16,6 +16,9 @@
   --color-westar: #e2dfda;
   --color-cotton-seed: #bfbcb2;
   --color-friar-gray: #807d74;
+  --color-early-dawn: #fff9e8;
+  --color-titan-white: #ebeaff;
+  --color-white-pointer: #fcefff;
 
   /* font-size */
 
