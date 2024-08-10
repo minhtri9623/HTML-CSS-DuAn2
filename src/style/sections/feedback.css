@@ -1,0 +1,62 @@
+.feedback {
+  margin-top: 135px;
+  padding: 96px 0;
+  background-color: var(--color-cola);
+}
+
+.feedback-wrapper {
+  display: flex;
+}
+
+/* Info */
+.feedback-info {
+  width: 13%;
+}
+
+.feedback__img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.feedback__name {
+  font-family: "Sen", sans-serif;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-sm);
+  color: var(--color-alabaster);
+  white-space: nowrap;
+  margin-top: 18px;
+}
+
+.feedback__desc {
+  font-size: var(--font-size-3xs);
+  line-height: var(--line-height-3xs);
+  font-weight: var(--font-weight-default);
+  color: var(--color-cotton-seed);
+  white-space: nowrap;
+}
+
+.feedback-circle {
+  margin-top: 28px;
+}
+
+/* Content */
+.feedback-content {
+  width: 87%;
+  margin-left: 241px;
+}
+
+.feedback__icon {
+  display: block;
+}
+
+.feedback__text {
+  font-style: italic;
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-default);
+  color: var(--color-while);
+  line-height: var(--line-height-md);
+  padding-left: 30px;
+}
