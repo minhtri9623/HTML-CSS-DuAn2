@@ -1,0 +1,16 @@
+.circle-wrapper {
+  display: flex;
+  gap: 6px;
+}
+
+.circle {
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--color-nutmeg-wood);
+}
+
+.circle--active {
+  background-color: var(--color-primary);
+}
